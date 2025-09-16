@@ -41,7 +41,7 @@ export function Header() {
   if (!user) {
     return (
       <header className="bg-[#1e293B] text-white shadow-lg">
-        <div className="flex items-center justify-between px-6 py-4">
+        <div className="flex items-center justify-between px-6 py-4  w-full">
           <div className="flex items-center space-x-3">
             <div className="bg-[#1e293B]  text-primary p-2 rounded-lg">
             <img src={Logo.src} alt="Logo" className="h-10 w-50 bg-[#1e293B]" />
